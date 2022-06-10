@@ -3,3 +3,8 @@ git config --list = git settings
 git config --global core.editor 'code --wait' = use VsCode as default editor for git
 git config --global -e = git user settings file
 git status -s = reduced status
+git commit --amend --no-edit = add to previous commit
+
+[alias]
+	s = !git status -s
+	c = !git add --all && git commit -m
