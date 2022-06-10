@@ -4,7 +4,11 @@ git config --global core.editor 'code --wait' = use VsCode as default editor for
 git config --global -e = git user settings file
 git status -s = reduced status
 git commit --amend --no-edit = add to previous commit
+git tag -a "0.1.beta" -m "release 0.1.beta" <commit hash>
 
 [alias]
 	s = !git status -s
 	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+[push]
+	followTags = true
