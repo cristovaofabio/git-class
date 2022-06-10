@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cristovaofabio/git-class/issues"
   },
-  "homepage": "https://github.com/cristovaofabio/git-class#readme"
+  "homepage": "https://github.com/cristovaofabio/git-class#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
