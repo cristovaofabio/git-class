@@ -1,0 +1,5 @@
+git remote -v = list all remote repositories
+git config --list = git settings
+git config --global core.editor 'code --wait' = use VsCode as default editor for git
+git config --global -e = git user settings file
+git status -s = reduced status
