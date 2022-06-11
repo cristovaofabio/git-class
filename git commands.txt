@@ -15,6 +15,7 @@ git checkout <branch name> = switch to the defined branch
 git checkout main = change to main branch
 git merge <branch name> = merge one branch to branch main
 git rm <file name> --cached = not to monitor changes in this file anymore
+git rebase -i HEAD~4 = shows that last four commit that you can rename it
 
 [alias]
 	s = !git status -s
