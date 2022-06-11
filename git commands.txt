@@ -7,6 +7,8 @@ git commit --amend --no-edit = add to previous commit
 git tag -a "0.1.beta" -m "release 0.1.beta" <commit hash>
 git tag -d "<tags name>" = remove local tag
 git push --delete origin "<tags name> = remove remote tag
+git reset <filename> = remove file from Stage/Index area
+git reset HEAD~1 --mixed = undo the last commit
 
 [alias]
 	s = !git status -s
