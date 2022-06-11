@@ -11,6 +11,10 @@ git reset <filename> = remove file from Stage/Index area
 git reset HEAD~1 --mixed = undo the last commit
 git checkout <filename> = undo changes in the file
 git checkout <hash commit> = come back to defined commit state
+git checkout <branch name> = switch to the defined branch
+git checkout main = change to main branch
+git merge <branch name> = merge one branch to branch main
+git rm <file name> --cached = not to monitor changes in this file anymore
 
 [alias]
 	s = !git status -s
